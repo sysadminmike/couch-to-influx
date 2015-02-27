@@ -9,6 +9,6 @@ The couchdb database is expected to be in the format provided by https://github.
 
 The two projects give a basic version of the statsd influxdb backend but with couchdb in between so could be useful if you want to archive your metrics and then copy a specific range to influxdb.
 
-
+Checkpoint saving is happening to a file but not being read on start up so if stopped or restarted will restart from the beginning.
 
 
